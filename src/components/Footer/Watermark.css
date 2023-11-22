@@ -1,0 +1,16 @@
+.watermark-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
+.watermark-wrapper > span {
+    font: 400 1.2rem 'Fira Mono';
+    color: var(--text-dark)
+}
+
+.watermark-wrapper > span > a {
+    color: var(--highlight);
+    text-decoration: none;
+}

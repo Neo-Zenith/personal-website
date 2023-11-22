@@ -1,0 +1,34 @@
+.button-wrapper {
+    display: flex;
+    min-width: 10rem;
+    min-height: 4rem;
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    min-width: 10rem;
+    min-height: 4rem;
+    padding: 1rem 2rem;
+    font: 400 1.4rem 'Fira Mono';
+    z-index: 2;
+    background-color: var(--background);
+    border: 0.15rem solid var(--highlight);
+    color: var(--highlight);
+    cursor: pointer;
+    border-radius: 0.3rem;
+    transition: 0.3s all ease-in-out;
+}
+
+.button:hover {
+    transform: translate(-2px, -3px);
+    transition: 0.3s all ease-in-out;
+}
+
+.bg-div {
+    position: absolute;
+    z-index: 1;
+    min-width: 10rem;
+    min-height: 4rem;
+    background-color: var(--highlight);
+}

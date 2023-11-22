@@ -1,0 +1,54 @@
+#toggle {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.hamburger:hover .line {
+    background-color: var(--highlight);
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--text-medium);
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
+.line1 {
+    top: 0;
+}
+
+.line2 {
+    top: 11px;
+}
+
+.line3 {
+    top: 22px;
+}
+
+#toggle:checked + .hamburger .line1 {
+    transform: rotate(45deg);
+    top: 11px;
+}
+
+#toggle:checked + .hamburger .line2 {
+    opacity: 0;
+}
+
+#toggle:checked + .hamburger .line3 {
+    transform: rotate(-45deg);
+    top: 11px;
+}
+
+#toggle:checked + .hamburger .line1,
+#toggle:checked + .hamburger .line3 {
+    transition: all 0.3s ease;
+}

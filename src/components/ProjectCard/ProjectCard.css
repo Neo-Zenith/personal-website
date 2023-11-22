@@ -1,0 +1,200 @@
+.project-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.project-img {
+    position: relative;
+    display: flex;
+    min-width: 50%;
+    width: 100%;
+    height: fit-content;
+    animation: project-card-slide-in 1s ease-in-out;
+}
+
+.project-img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 114, 105, 0.5);
+    z-index: 2;
+    transition: 0.3s background-color ease-in-out;
+}
+
+.project-img-overlay:hover {
+    background-color: transparent;
+    transition: 0.3s all ease-in-out;
+}
+
+.project-img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.6rem;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: project-card-slide-in 0.3s ease-in-out;
+}
+
+.project-content.left {
+    margin-left: auto;
+    align-items: flex-end;
+}
+
+.project-content.right {
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.project-title {
+    margin-top: 1rem;
+    font: 500 2.5rem 'Roboto';
+    color: var(--text-medium)
+}
+
+.project-title.left{
+    text-align: end;
+}
+
+.project-title.right {
+    text-align: start;
+}
+
+.project-description {
+    margin-top: 3rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.4);
+    background-color: #112240;
+    padding: 3rem;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+.project-text {
+    font: 400 1.6rem 'Roboto';
+    line-height: 2.6rem;
+    color: #A8B2D1;
+    display: flex;
+}
+
+.project-text.left {
+    text-align: end;
+}
+
+.project-text.right {
+    text-align: start;
+}
+
+.project-tech-list {
+    display: flex;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.project-tech {
+    font: 400 1.3rem 'Fira Mono';
+    color: var(--text-dark)
+}
+
+.project-src {
+    margin-top: 2rem;
+}
+
+.project-header {
+    font: 400 1.8rem 'Fira Mono';
+    color: var(--highlight)
+}
+
+.project-src-img {
+    cursor: pointer;
+    width: 2.2rem;
+    height: 2.2rem;
+    filter: invert(99%) sepia(66%) saturate(4683%) hue-rotate(178deg) brightness(100%) contrast(93%);
+    -webkit-transition: 0.2s -webkit-filter linear;
+    -moz-transition: 0.2s -moz-filter linear;
+    -moz-transition: 0.2s filter linear;
+    -ms-transition: 0.2s -ms-filter linear;
+    -o-transition: 0.2s -o-filter linear;
+    transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+}
+
+.project-src > a:hover > .project-src-img {
+    filter: invert(71%) sepia(99%) saturate(250%) hue-rotate(119deg) brightness(91%) contrast(88%);
+    -webkit-transition: 0.2s -webkit-filter linear;
+    -moz-transition: 0.2s -moz-filter linear;
+    -moz-transition: 0.2s filter linear;
+    -ms-transition: 0.2s -ms-filter linear;
+    -o-transition: 0.2s -o-filter linear;
+    transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+}
+
+@media screen and (max-width: 720px) {
+    .project-wrapper {
+        width: 100%;
+    }
+    
+    .project-img {
+        display: none;
+    }
+
+    .project-header {
+        font-size: 1.4rem;
+    }
+
+    .project-title {
+        font-size: 2rem;
+    }
+
+    .project-title.left {
+        text-align: start;
+    }
+
+    .project-text {
+        font-size: 1.4rem;
+    }
+
+    .project-text.left {
+        text-align: start;
+    }
+
+    .project-content.left {
+        align-items: flex-start;
+    }
+
+    .project-description {
+        margin-top: 1.5rem;
+        padding: 0rem;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .project-content {
+        border-radius: 0.6rem;
+        padding: 3rem;
+        background-color: #112240;
+    }
+}
+
+@keyframes project-card-slide-in {
+    0% {
+        opacity: 0;
+        transform: translate(10px, 0px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}

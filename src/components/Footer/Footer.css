@@ -1,0 +1,114 @@
+.footer-desktop {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 0 2%;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    animation: slide-in-footer 1s ease-in-out
+}
+
+.footer-link > a:hover > .footer-link-img {
+    filter: invert(71%) sepia(99%) saturate(250%) hue-rotate(119deg) brightness(91%) contrast(88%);
+    -webkit-transition: 0.2s -webkit-filter linear;
+    -moz-transition: 0.2s -moz-filter linear;
+    -moz-transition: 0.2s filter linear;
+    -ms-transition: 0.2s -ms-filter linear;
+    -o-transition: 0.2s -o-filter linear;
+    transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    transform: translate(0px, -5px);
+    transition: 0.2s transform ease-in-out;
+}
+
+.footer-link-img {
+    width: 2.2rem;
+    height: 2.2rem;
+    filter: invert(65%) sepia(6%) saturate(1344%) hue-rotate(188deg) brightness(88%) contrast(91%);
+    -webkit-transition: 0.2s -webkit-filter linear;
+    -moz-transition: 0.2s -moz-filter linear;
+    -moz-transition: 0.2s filter linear;
+    -ms-transition: 0.2s -ms-filter linear;
+    -o-transition: 0.2s -o-filter linear;
+    transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    transition: 0.2s transform ease-in-out;
+}
+
+.footer-vertical-line {
+    border-left: 2px solid var(--text-dark);
+    height: 15rem;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    animation: slide-in-footer 1s ease-in-out
+}
+
+
+.footer-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer-mobile {
+        width: 100%;
+        display: flex;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-links {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 2rem;
+    }
+
+    .footer-link-img {
+        width: 1.8rem;
+        height: 1.8rem;
+        -webkit-transition: 0.2s -webkit-filter linear;
+        -moz-transition: 0.2s -moz-filter linear;
+        -moz-transition: 0.2s filter linear;
+        -ms-transition: 0.2s -ms-filter linear;
+        -o-transition: 0.2s -o-filter linear;
+        transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+
+    .footer-link > a:hover > .footer-link-img {
+        transform: translate(0px, 0px);
+        -webkit-transition: 0.2s -webkit-filter linear;
+        -moz-transition: 0.2s -moz-filter linear;
+        -moz-transition: 0.2s filter linear;
+        -ms-transition: 0.2s -ms-filter linear;
+        -o-transition: 0.2s -o-filter linear;
+        transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    }
+}
+
+@keyframes slide-in-footer {
+    0% {
+        opacity: 0;
+        transform: translate(0px, 10px);
+    }
+
+    67% {
+        opacity: 0;
+        transform: translate(0px, 10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
