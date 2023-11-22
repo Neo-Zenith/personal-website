@@ -32,9 +32,11 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Work with React and Material-UI to develop a
-                                responsive dashboard web application that
-                                connects to the NLP gateway platform.
+                                Tasked with developing the NLPHub frontend
+                                dashboard using React and Material-UI to
+                                facilitate registration and management of NLP
+                                services by administrators, ensuring streamlined
+                                accessibility for users.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -43,9 +45,11 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Construct a React Redux store to handle
-                                application state and persistent data and
-                                streamline API calling with React hooks.
+                                Utilized Chart.js to build interactive charts
+                                that highlight key platform metrics, including
+                                historical query data, top users based on
+                                request frequency, and the most utilized
+                                services.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -54,9 +58,21 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Write Artillery load testing scripts and perform
-                                ad-hoc testing with Postman to ensure support
-                                for up to 3000 concurrent users.
+                                Constructed a React Redux store for
+                                comprehensive state management and implemented
+                                optimized API calls using custom React hooks.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Created Artillery load testing scripts and
+                                conducting ad-hoc testing via Postman to verify
+                                the system's capability to sustain a load of up
+                                to 3000 concurrent users.
                             </li>
                         </ul>
                     </div>
@@ -87,9 +103,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Developed and maintained the codebase for an NLP
-                                gateway platform using TypeScript NestJS and
-                                MongoDB.
+                                Developed and maintained NLPHub, a centralized
+                                gateway for deploying text, video, and
+                                audio-based NLP models, using TypeScript Nest.js
+                                as backend framework and MongoDB as database
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -98,11 +115,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Accelerated the development process by up to 15%
-                                through the establishment of a CI/CD pipeline
-                                using GitHub Actions that performs automated
-                                testing using Jest and deployment to Azure VM
-                                using Nginx as reverse proxy and load balancer.
+                                Established a streamlined CI/CD pipeline on
+                                GitHub Actions using separate workflow files to
+                                compartmentalize testing, building, and
+                                deployment processes.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -111,9 +127,11 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Explored and implemented microservice
-                                architecture principles while working on the
-                                development of OAuth features.
+                                Implemented Redis caching strategy resulting in
+                                a significant enhancement of system performance,
+                                reducing response times by 45%, optimizing
+                                resource utilization, and improving overall
+                                system responsiveness.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -122,9 +140,20 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Containerized Redis with Docker to improve
-                                system performance by optimizing data caching
-                                and retrieval
+                                Adopted Test Driven Development (TDD) practice
+                                and wrote unit tests using Jest that achieved a
+                                90% test coverage.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Containerized the system using Docker and
+                                utilized Docker Hub for image registry and
+                                version control.
                             </li>
                         </ul>
                     </div>
