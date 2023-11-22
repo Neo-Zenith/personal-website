@@ -40,7 +40,7 @@ export default function Projects() {
                             }
                             tech={["ReactJS", "Django", "PostgreSQL", "Azure"]}
                             repoLink={
-                                "https://github.com/Neo-Zenith/e-commerce-price-comparison-app"
+                                "https://github.com/Neo-Zenith/sc2006-findr"
                             }
                         />
                         <ProjectCard
@@ -52,7 +52,7 @@ export default function Projects() {
                             }
                             tech={["Django", "OpenCV", "Sqlite", "ChartJS"]}
                             repoLink={
-                                "https://github.com/Neo-Zenith/automated-student-engagement-system"
+                                "https://github.com/Neo-Zenith/ases-automated-student-engagement-system"
                             }
                         />
                         <ProjectCard
