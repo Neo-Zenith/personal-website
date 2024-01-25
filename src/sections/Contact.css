@@ -10,19 +10,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10rem;
-    overflow-x: hidden;
+    padding: 0rem 15%
 }
 
 .contact-text {
     font: 400 1.8rem 'Roboto';
     color: var(--text-dark);
     margin-top: 3rem;
-    line-height: 3rem;
-    vertical-align: baseline;
-    letter-spacing: normal;
+    line-height: 2.6rem;
+    max-width: 75rem;
     text-align: center;
-    width: min(60rem, 80%);
     animation: contact-slide-in 0.8s ease-in-out;
 }
 
@@ -40,8 +37,7 @@
 
     .contact-text {
         font-size: 1.5rem;
-        width: 100%;
-        min-width: 30rem;
+        width: 80%;
     }
 
     .contact-button {

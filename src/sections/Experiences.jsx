@@ -1,10 +1,17 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import SectionHeader from "../components/SectionHeader/SectionHeader";
 import "./Experiences.css";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 export default function Experiences() {
     const [selection, setSelection] = useState(1);
+    const ref = useRef(null);
+
+    const handleScroll = () => {
+        ref.current?.scrollIntoView({
+            behavior: "smooth",
+        });
+    };
 
     const experienceConfig = () => {
         switch (selection) {
@@ -171,7 +178,11 @@ export default function Experiences() {
                         <ul className="experiences-selection">
                             <li>
                                 <button
-                                    onClick={(e) => setSelection(1)}
+                                    ref={ref}
+                                    onClick={(e) => {
+                                        setSelection(1);
+                                        handleScroll();
+                                    }}
                                     className={selection === 1 ? "active" : ""}
                                 >
                                     Temasek Lab
@@ -179,7 +190,11 @@ export default function Experiences() {
                             </li>
                             <li>
                                 <button
-                                    onClick={() => setSelection(2)}
+                                    ref={ref}
+                                    onClick={() => {
+                                        setSelection(2);
+                                        handleScroll();
+                                    }}
                                     className={selection === 2 ? "active" : ""}
                                 >
                                     Temasek Lab

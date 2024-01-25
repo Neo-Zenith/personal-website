@@ -9,8 +9,8 @@
 .experiences-wrapper > div {
     display: flex;
     flex-direction: column;
-    width: 80rem;
-    padding: 0 10rem;
+    width: 100%;
+    padding: 0 15%;
 }
 
 .experiences-content {
@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20rem;
+    width: 30rem;
     animation: slide-in-experience 0.4s ease-in-out;
 }
 
@@ -40,6 +40,7 @@
     width: 100%;
     height: 100%;
     padding: 1.5rem 0;
+    scroll-margin-top: 25rem;
     border-left: 0.1rem solid #233554;
     transition: 0.2s all ease-in-out;
     text-align: start;
@@ -86,9 +87,9 @@
     display: flex;
     align-items: flex-start;
     column-gap: 2rem;
-    font: 400 1.7rem 'Roboto';
+    font: 400 1.6rem 'Roboto';
     color: var(--text-dark);
-    line-height: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .experience-highlight {
@@ -113,7 +114,8 @@
 
     .experiences-selection {
         flex-direction: row;
-        width: 30rem;
+        justify-content: flex-start;
+        width: 100%;
         overflow-x: scroll;
         margin-bottom: 2rem;
     }
@@ -124,6 +126,7 @@
     } 
 
     .experiences-selection > li > button {
+        scroll-margin-top: 15rem;
         border-left: none;
         border-top: 0.1rem solid #233554;
     }

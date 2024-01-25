@@ -28,13 +28,13 @@
 }
 
 .hero-title2 {
-    font: 600 3rem 'Roboto';
+    font: 500 3rem 'Roboto';
     color: var(--text-dark);
     margin-bottom: 3.5rem;
 }
 
 .hero-subtitle {
-    font: 400 1.9rem 'Roboto';
+    font: 400 1.8rem 'Roboto';
     color: var(--text-dark); 
 }
 

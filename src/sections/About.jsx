@@ -32,15 +32,15 @@ export default function About() {
                             <span>
                                 I am currently working at{" "}
                                 <a
-                                    href="https://www.ntu.edu.sg/temasek-labs"
+                                    href="https://proxtera.com"
                                     target="__blank"
                                     className="about-highlight"
                                 >
-                                    Temasek Lab
+                                    Proxtera
                                 </a>{" "}
-                                as a Full-stack Software Engineer Intern, where
-                                I help build a gateway platform that integrates
-                                various NLP models for streamlined access.
+                                as a Software Engineer Intern, where I assist in
+                                improving and developing new features of the
+                                various digital finance products offered.
                             </span>
                             <span>
                                 Here are a few technologies I've been working
