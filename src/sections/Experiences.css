@@ -92,6 +92,10 @@
     line-height: 2.6rem;
 }
 
+.experience-text > li > svg {
+    margin-top: 0.5rem;
+}
+
 .experience-highlight {
     color: var(--highlight);
     text-decoration: none;

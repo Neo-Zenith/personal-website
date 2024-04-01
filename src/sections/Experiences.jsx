@@ -113,7 +113,7 @@ export default function Experiences() {
                                 Developed and maintained NLPHub, a centralized
                                 gateway for deploying text, video, and
                                 audio-based NLP models, using TypeScript Nest.js
-                                as backend framework and MongoDB as database
+                                as backend framework and MongoDB as database.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -166,6 +166,78 @@ export default function Experiences() {
                     </div>
                 );
             }
+
+            case 3: {
+                return (
+                    <div className="experience-content">
+                        <span className="experience-title">
+                            Software Engineer Intern{" "}
+                            <a
+                                href="https://proxtera.com"
+                                target="__blank"
+                                className="experience-highlight"
+                            >
+                                @ Proxtera
+                            </a>
+                        </span>
+                        <span className="experience-time">
+                            Jan 2024 - Apr 2024
+                        </span>
+                        <ul className="experience-text">
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Created a Selenium web scraper deployed on AWS
+                                EC2 to scrap e-commerce product listing data,
+                                leveraging MapReduce framework with Python's
+                                multiprocessing library to accelerate the
+                                scraping process by 40%.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Tasked with developing a serverless function on
+                                AWS Lambda that transforms Ghana GPS information
+                                into a format usable by other downstream
+                                applications.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Developed a PDF generator microservice in
+                                JavaScript that dynamically generates product
+                                orders, quotation forms, and purchase orders
+                                based on user input details.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Built an email template generator that
+                                transforms inputs from Google Sheets into email
+                                templates in HTML, providing immediate
+                                visualization of the email layout for the
+                                business development team.
+                            </li>
+                        </ul>
+                    </div>
+                );
+            }
         }
     };
 
@@ -198,6 +270,18 @@ export default function Experiences() {
                                     className={selection === 2 ? "active" : ""}
                                 >
                                     Temasek Lab
+                                </button>
+                            </li>
+                            <li>
+                                <button
+                                    ref={ref}
+                                    onClick={() => {
+                                        setSelection(3);
+                                        handleScroll();
+                                    }}
+                                    className={selection === 3 ? "active" : ""}
+                                >
+                                    Proxtera
                                 </button>
                             </li>
                         </ul>
