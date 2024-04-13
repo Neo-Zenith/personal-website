@@ -23,13 +23,12 @@ export default function About() {
                             <span>
                                 Currently in my penultimate year at Nanyang
                                 Technological University, I am set to graduate
-                                in December 2024, with a specialized focus on
-                                Artificial Intelligence. I am skilled in popular
-                                frameworks (MERN, Django, Flask), DevOps
-                                practices (CI/CD) and hyperscalers (Microsoft
-                                Azure).
+                                in December 2024. I have experiences leading
+                                projects of various scales built in NodeJS
+                                environment. I am also experienced in DevOps
+                                practices on Microsoft Azure cloud platform.
                             </span>
-                            <span>
+                            {/* <span>
                                 I am currently working at{" "}
                                 <a
                                     href="https://proxtera.com"
@@ -41,7 +40,7 @@ export default function About() {
                                 as a Software Engineer Intern, where I assist in
                                 improving and developing new features of the
                                 various digital finance products offered.
-                            </span>
+                            </span> */}
                             <span>
                                 Here are a few technologies I've been working
                                 with recently:
@@ -55,25 +54,25 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
+                                        AWS EC2
+                                    </li>
+                                    <li>
+                                        <PlayArrowIcon
+                                            sx={{
+                                                fontSize: "1.2rem",
+                                                color: "var(--highlight)",
+                                            }}
+                                        />
+                                        AWS Lambda
+                                    </li>
+                                    <li>
+                                        <PlayArrowIcon
+                                            sx={{
+                                                fontSize: "1.2rem",
+                                                color: "var(--highlight)",
+                                            }}
+                                        />
                                         Docker
-                                    </li>
-                                    <li>
-                                        <PlayArrowIcon
-                                            sx={{
-                                                fontSize: "1.2rem",
-                                                color: "var(--highlight)",
-                                            }}
-                                        />
-                                        Redis
-                                    </li>
-                                    <li>
-                                        <PlayArrowIcon
-                                            sx={{
-                                                fontSize: "1.2rem",
-                                                color: "var(--highlight)",
-                                            }}
-                                        />
-                                        NestJS
                                     </li>
                                 </ul>
                                 <ul className="about-tech-list">
@@ -93,7 +92,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        MongoDB
+                                        Nginx
                                     </li>
                                     <li>
                                         <PlayArrowIcon
@@ -102,7 +101,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        Supabase
+                                        NestJS
                                     </li>
                                 </ul>
                             </span>

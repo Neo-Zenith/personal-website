@@ -39,11 +39,9 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Tasked with developing the NLPHub frontend
-                                dashboard using React and Material-UI to
-                                facilitate registration and management of NLP
-                                services by administrators, ensuring streamlined
-                                accessibility for users.
+                                Developed the frontend dashboard for NLPHub
+                                using React to enable clients to register and
+                                manage NLP services.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -56,18 +54,8 @@ export default function Experiences() {
                                 that highlight key platform metrics, including
                                 historical query data, top users based on
                                 request frequency, and the most utilized
-                                services.
-                            </li>
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Constructed a React Redux store for
-                                comprehensive state management and implemented
-                                optimized API calls using custom React hooks.
+                                services, offering a comprehensive visualization
+                                of the platform's dynamics.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -77,9 +65,9 @@ export default function Experiences() {
                                     }}
                                 />
                                 Created Artillery load testing scripts and
-                                conducting ad-hoc testing via Postman to verify
-                                the system's capability to sustain a load of up
-                                to 3000 concurrent users.
+                                conducting ad-hoc testing via Postman to ensure
+                                robust performance and scalability of the
+                                application.
                             </li>
                         </ul>
                     </div>
@@ -110,10 +98,9 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Developed and maintained NLPHub, a centralized
-                                gateway for deploying text, video, and
-                                audio-based NLP models, using TypeScript Nest.js
-                                as backend framework and MongoDB as database.
+                                Developed a gateway platform for deploying text,
+                                video, and audio-based NLP models using NestJS
+                                and MongoDB.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -122,10 +109,9 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Established a streamlined CI/CD pipeline on
-                                GitHub Actions using separate workflow files to
-                                compartmentalize testing, building, and
-                                deployment processes.
+                                Built a CI/CD pipeline on GitHub Actions to
+                                perform automated testing and deployment to
+                                Docker Hub container registry.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -134,22 +120,9 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Implemented Redis caching strategy resulting in
-                                a significant enhancement of system performance,
-                                reducing response times by 45%, optimizing
-                                resource utilization, and improving overall
-                                system responsiveness.
-                            </li>
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Adopted Test Driven Development (TDD) practice
-                                and wrote unit tests using Jest that achieved a
-                                90% test coverage.
+                                Improved system capacity by implementing Redis
+                                cache as a middleware layer and Nginx web server
+                                as load-balancer.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -193,9 +166,9 @@ export default function Experiences() {
                                 />
                                 Created a Selenium web scraper deployed on AWS
                                 EC2 to scrap e-commerce product listing data,
-                                leveraging MapReduce framework with Python's
-                                multiprocessing library to accelerate the
-                                scraping process by 40%.
+                                leveraging Python's multiprocessing library as a
+                                MapReduce framework to accelerate the scraping
+                                process.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -204,10 +177,9 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Tasked with developing a serverless function on
-                                AWS Lambda that transforms Ghana GPS information
-                                into a format usable by other downstream
-                                applications.
+                                Developed a serverless function on AWS Lambda
+                                that transforms Ghana GPS information into a
+                                format usable by other downstream applications.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -216,7 +188,7 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Developed a PDF generator microservice in
+                                Created a PDF generator microservice in
                                 JavaScript that dynamically generates product
                                 orders, quotation forms, and purchase orders
                                 based on user input details.
@@ -228,7 +200,7 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Built an email template generator that
+                                Built an email template visualizer that
                                 transforms inputs from Google Sheets into email
                                 templates in HTML, providing immediate
                                 visualization of the email layout for the

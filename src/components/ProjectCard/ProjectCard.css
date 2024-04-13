@@ -119,22 +119,22 @@
     width: 2.2rem;
     height: 2.2rem;
     filter: invert(99%) sepia(66%) saturate(4683%) hue-rotate(178deg) brightness(100%) contrast(93%);
-    -webkit-transition: 0.2s -webkit-filter linear;
-    -moz-transition: 0.2s -moz-filter linear;
-    -moz-transition: 0.2s filter linear;
-    -ms-transition: 0.2s -ms-filter linear;
-    -o-transition: 0.2s -o-filter linear;
-    transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    -webkit-transition: 0.0s -webkit-filter linear;
+    -moz-transition: 0.0s -moz-filter linear;
+    -moz-transition: 0.0s filter linear;
+    -ms-transition: 0.0s -ms-filter linear;
+    -o-transition: 0.0s -o-filter linear;
+    transition: 0.0s filter linear, 0.0s -webkit-filter linear;
 }
 
 .project-src > a:hover > .project-src-img {
-    filter: invert(71%) sepia(99%) saturate(250%) hue-rotate(119deg) brightness(91%) contrast(88%);
-    -webkit-transition: 0.2s -webkit-filter linear;
-    -moz-transition: 0.2s -moz-filter linear;
-    -moz-transition: 0.2s filter linear;
-    -ms-transition: 0.2s -ms-filter linear;
-    -o-transition: 0.2s -o-filter linear;
-    transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    filter: invert(67%) sepia(99%) saturate(223%) hue-rotate(124deg) brightness(90%) contrast(98%);
+    -webkit-transition: 0.0s -webkit-filter linear;
+    -moz-transition: 0.0s -moz-filter linear;
+    -moz-transition: 0.0s filter linear;
+    -ms-transition: 0.0s -ms-filter linear;
+    -o-transition: 0.0s -o-filter linear;
+    transition: 0.0s filter linear, 0.0s -webkit-filter linear;
 }
 
 @media screen and (max-width: 720px) {

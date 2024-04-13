@@ -40,7 +40,7 @@
     width: 100%;
     height: 100%;
     padding: 1.5rem 0;
-    scroll-margin-top: 25rem;
+    scroll-margin-top: 30rem;
     border-left: 0.1rem solid #233554;
     transition: 0.2s all ease-in-out;
     text-align: start;
@@ -130,7 +130,7 @@
     } 
 
     .experiences-selection > li > button {
-        scroll-margin-top: 15rem;
+        scroll-margin-top: 25rem;
         border-left: none;
         border-top: 0.1rem solid #233554;
     }
