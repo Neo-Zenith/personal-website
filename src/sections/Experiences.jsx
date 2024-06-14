@@ -210,6 +210,75 @@ export default function Experiences() {
                     </div>
                 );
             }
+
+            case 4: {
+                return (
+                    <div className="experience-content">
+                        <span className="experience-title">
+                            Software Engineer Intern{" "}
+                            <a
+                                href="https://proxtera.com"
+                                target="__blank"
+                                className="experience-highlight"
+                            >
+                                @ OCBC Bank
+                            </a>
+                        </span>
+                        <span className="experience-time">
+                            May 2024 - Present
+                        </span>
+                        <ul className="experience-text">
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Developed an MVP showcasing OCBC Bank's history
+                                in VR with 3D artifact models in Apple Vision
+                                Pro using Swift.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Led backend development of a virtual avatar
+                                banking project using Python Flask, integrating
+                                OpenAI GPT API for interactive banking
+                                operations.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Created mock microservices in Spring Boot to
+                                integrate the Flask backend into the existing
+                                Spring microservices ecosystem and facilitated
+                                communication between Flask and Spring
+                                microservices via RabbitMQ.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Handled Jira tickets for the React web
+                                development team, addressing small features and
+                                bug fixes as part of BAU activities.
+                            </li>
+                        </ul>
+                    </div>
+                );
+            }
         }
     };
 
@@ -254,6 +323,18 @@ export default function Experiences() {
                                     className={selection === 3 ? "active" : ""}
                                 >
                                     Proxtera
+                                </button>
+                            </li>
+                            <li>
+                                <button
+                                    ref={ref}
+                                    onClick={() => {
+                                        setSelection(4);
+                                        handleScroll();
+                                    }}
+                                    className={selection === 4 ? "active" : ""}
+                                >
+                                    OCBC Bank
                                 </button>
                             </li>
                         </ul>

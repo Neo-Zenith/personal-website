@@ -8,9 +8,9 @@ export default function Hero() {
                     <span className="hero-pretext">Hi! My name is</span>
                     <span className="hero-title1">Lee Juin</span>
                     <span className="hero-title2">
-                        Software Engineer{" "}
+                        Software Engineer Intern{" "}
                         <span style={{ color: "var(--highlight)" }}>
-                            @ NTU, Singapore
+                            @ OCBC Bank
                         </span>
                     </span>
                     <span className="hero-subtitle">

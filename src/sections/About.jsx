@@ -28,19 +28,20 @@ export default function About() {
                                 environment. I am also experienced in DevOps
                                 practices on Microsoft Azure cloud platform.
                             </span>
-                            {/* <span>
+                            <span>
                                 I am currently working at{" "}
                                 <a
-                                    href="https://proxtera.com"
+                                    href="https://ocbc.com"
                                     target="__blank"
                                     className="about-highlight"
                                 >
-                                    Proxtera
+                                    OCBC Bank
                                 </a>{" "}
-                                as a Software Engineer Intern, where I assist in
-                                improving and developing new features of the
-                                various digital finance products offered.
-                            </span> */}
+                                as a Software Engineer Intern, where I take part
+                                in the research and development of innovative
+                                digital solutions that transforms the banking
+                                experience.
+                            </span>
                             <span>
                                 Here are a few technologies I've been working
                                 with recently:
@@ -54,7 +55,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        AWS EC2
+                                        Java Spring Boot
                                     </li>
                                     <li>
                                         <PlayArrowIcon
@@ -63,7 +64,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        AWS Lambda
+                                        RabbitMQ
                                     </li>
                                     <li>
                                         <PlayArrowIcon
@@ -83,7 +84,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        React
+                                        ReactJS
                                     </li>
                                     <li>
                                         <PlayArrowIcon
@@ -92,7 +93,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        Nginx
+                                        Swift
                                     </li>
                                     <li>
                                         <PlayArrowIcon
@@ -101,7 +102,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        NestJS
+                                        Python Flask
                                     </li>
                                 </ul>
                             </span>
