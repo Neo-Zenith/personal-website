@@ -4,7 +4,7 @@ import "./Experiences.css";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 export default function Experiences() {
-    const [selection, setSelection] = useState(1);
+    const [selection, setSelection] = useState(4);
 
     const handleButtonClick = (index, buttonRef) => {
         setSelection(index);
