@@ -5,12 +5,17 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 export default function Experiences() {
     const [selection, setSelection] = useState(1);
-    const ref = useRef(null);
 
-    const handleScroll = () => {
-        ref.current?.scrollIntoView({
-            behavior: "smooth",
-        });
+    const handleButtonClick = (index, buttonRef) => {
+        setSelection(index);
+
+        // If window is less than 768px, scroll to the top of the section
+        if (window.innerWidth < 768) {
+            buttonRef.current?.scrollIntoView({
+                behavior: "smooth",
+                inline: "center",
+            });
+        }
     };
 
     const experienceConfig = () => {
@@ -282,6 +287,8 @@ export default function Experiences() {
         }
     };
 
+    const buttonRefs = [useRef(null), useRef(null), useRef(null), useRef(null)];
+
     return (
         <>
             <div className="experiences-wrapper" id="experiences">
@@ -291,35 +298,21 @@ export default function Experiences() {
                         <ul className="experiences-selection">
                             <li>
                                 <button
-                                    ref={ref}
-                                    onClick={(e) => {
-                                        setSelection(1);
-                                        handleScroll();
-                                    }}
-                                    className={selection === 1 ? "active" : ""}
+                                    ref={buttonRefs[3]}
+                                    onClick={() =>
+                                        handleButtonClick(4, buttonRefs[3])
+                                    }
+                                    className={selection === 4 ? "active" : ""}
                                 >
-                                    Temasek Lab
+                                    OCBC Bank
                                 </button>
                             </li>
                             <li>
                                 <button
-                                    ref={ref}
-                                    onClick={() => {
-                                        setSelection(2);
-                                        handleScroll();
-                                    }}
-                                    className={selection === 2 ? "active" : ""}
-                                >
-                                    Temasek Lab
-                                </button>
-                            </li>
-                            <li>
-                                <button
-                                    ref={ref}
-                                    onClick={() => {
-                                        setSelection(3);
-                                        handleScroll();
-                                    }}
+                                    ref={buttonRefs[2]}
+                                    onClick={() =>
+                                        handleButtonClick(3, buttonRefs[2])
+                                    }
                                     className={selection === 3 ? "active" : ""}
                                 >
                                     Proxtera
@@ -327,14 +320,24 @@ export default function Experiences() {
                             </li>
                             <li>
                                 <button
-                                    ref={ref}
-                                    onClick={() => {
-                                        setSelection(4);
-                                        handleScroll();
-                                    }}
-                                    className={selection === 4 ? "active" : ""}
+                                    ref={buttonRefs[1]}
+                                    onClick={() =>
+                                        handleButtonClick(2, buttonRefs[1])
+                                    }
+                                    className={selection === 2 ? "active" : ""}
                                 >
-                                    OCBC Bank
+                                    Temasek Lab
+                                </button>
+                            </li>
+                            <li>
+                                <button
+                                    ref={buttonRefs[0]}
+                                    onClick={() =>
+                                        handleButtonClick(1, buttonRefs[0])
+                                    }
+                                    className={selection === 1 ? "active" : ""}
+                                >
+                                    Temasek Lab
                                 </button>
                             </li>
                         </ul>

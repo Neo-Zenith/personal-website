@@ -122,7 +122,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .about-wrapper {
         padding: 15% 10%;
         scroll-margin-top: 5rem;

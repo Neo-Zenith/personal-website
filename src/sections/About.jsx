@@ -12,24 +12,29 @@ export default function About() {
                     <div className="about-content">
                         <div className="about-text">
                             <span>
-                                Hello! My name is Lee Juin and I enjoy working
-                                on scalable projects that live on the Internet.
-                                My interest in web development started back in
-                                2021 when I decided to try building a simple
-                                gacha simulator — turns out building a pleasant
-                                GUI with Python Tkinter as a beginner is much
-                                harder than expected!!
+                                Hello! My name is Lee Juin, and I am a software
+                                engineer with a passion for full-stack
+                                development. My journey into software
+                                engineering began during my freshman year at
+                                university when I became fascinated by the
+                                potential of software to solve real-world
+                                problems and positively impact people's lives.
+                                To me, software engineering is akin to art,
+                                where each line of code is like a brushstroke
+                                that together turn abstract ideas into reality.
                             </span>
                             <span>
-                                Currently in my penultimate year at Nanyang
-                                Technological University, I am set to graduate
-                                in December 2024. I have experiences leading
-                                projects of various scales built in NodeJS
-                                environment. I am also experienced in DevOps
-                                practices on Microsoft Azure cloud platform.
+                                I am currently in my final year pursuing a
+                                Bachelor's degree in Computer Science at Nanyang
+                                Technological University, Singapore. Throughout
+                                my learning journey, I have had the privilege of
+                                leading and developing software projects at
+                                scale using various frameworks such as NodeJS,
+                                Python Django, and Java Spring Boot.
                             </span>
                             <span>
-                                I am currently working at{" "}
+                                Currently, I am working as a Software Engineer
+                                Intern at{" "}
                                 <a
                                     href="https://ocbc.com"
                                     target="__blank"
@@ -37,10 +42,9 @@ export default function About() {
                                 >
                                     OCBC Bank
                                 </a>{" "}
-                                as a Software Engineer Intern, where I take part
-                                in the research and development of innovative
-                                digital solutions that transforms the banking
-                                experience.
+                                where I participate in the research and
+                                development of innovative digital solutions that
+                                transform the banking experience.
                             </span>
                             <span>
                                 Here are a few technologies I've been working
