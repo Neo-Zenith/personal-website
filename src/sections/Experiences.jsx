@@ -24,65 +24,6 @@ export default function Experiences() {
                 return (
                     <div className="experience-content">
                         <span className="experience-title">
-                            Frontend SWE Intern{" "}
-                            <a
-                                href="https://www.ntu.edu.sg/temasek-labs"
-                                target="__blank"
-                                className="experience-highlight"
-                            >
-                                @ Temasek Lab
-                            </a>
-                        </span>
-                        <span className="experience-time">
-                            Sep 2023 - Dec 2023
-                        </span>
-                        <ul className="experience-text">
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Developed the frontend dashboard for NLPHub
-                                using React to enable clients to register and
-                                manage NLP services.
-                            </li>
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Utilized Chart.js to build interactive charts
-                                that highlight key platform metrics, including
-                                historical query data, top users based on
-                                request frequency, and the most utilized
-                                services, offering a comprehensive visualization
-                                of the platform's dynamics.
-                            </li>
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Created Artillery load testing scripts and
-                                conducting ad-hoc testing via Postman to ensure
-                                robust performance and scalability of the
-                                application.
-                            </li>
-                        </ul>
-                    </div>
-                );
-            }
-
-            case 2: {
-                return (
-                    <div className="experience-content">
-                        <span className="experience-title">
                             Backend SWE Intern{" "}
                             <a
                                 href="https://www.ntu.edu.sg/temasek-labs"
@@ -139,6 +80,65 @@ export default function Experiences() {
                                 Containerized the system using Docker and
                                 utilized Docker Hub for image registry and
                                 version control.
+                            </li>
+                        </ul>
+                    </div>
+                );
+            }
+
+            case 2: {
+                return (
+                    <div className="experience-content">
+                        <span className="experience-title">
+                            Frontend SWE Intern{" "}
+                            <a
+                                href="https://www.ntu.edu.sg/temasek-labs"
+                                target="__blank"
+                                className="experience-highlight"
+                            >
+                                @ Temasek Lab
+                            </a>
+                        </span>
+                        <span className="experience-time">
+                            Sep 2023 - Dec 2023
+                        </span>
+                        <ul className="experience-text">
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Developed the frontend dashboard for NLPHub
+                                using React to enable clients to register and
+                                manage NLP services.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Utilized Chart.js to build interactive charts
+                                that highlight key platform metrics, including
+                                historical query data, top users based on
+                                request frequency, and the most utilized
+                                services, offering a comprehensive visualization
+                                of the platform's dynamics.
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Created Artillery load testing scripts and
+                                conducting ad-hoc testing via Postman to ensure
+                                robust performance and scalability of the
+                                application.
                             </li>
                         </ul>
                     </div>
