@@ -4,7 +4,7 @@ import "./Experiences.css";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 export default function Experiences() {
-    const [selection, setSelection] = useState(4);
+    const [selection, setSelection] = useState(3);
 
     const handleButtonClick = (index, buttonRef) => {
         setSelection(index);
@@ -24,7 +24,7 @@ export default function Experiences() {
                 return (
                     <div className="experience-content">
                         <span className="experience-title">
-                            Backend SWE Intern{" "}
+                            Full-stack Software Developer Intern{" "}
                             <a
                                 href="https://www.ntu.edu.sg/temasek-labs"
                                 target="__blank"
@@ -34,7 +34,7 @@ export default function Experiences() {
                             </a>
                         </span>
                         <span className="experience-time">
-                            May 2023 - Aug 2023
+                            May 2023 - Dec 2023
                         </span>
                         <ul className="experience-text">
                             <li>
@@ -44,9 +44,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Developed a gateway platform for deploying text,
-                                video, and audio-based NLP models using NestJS
-                                and MongoDB.
+                                Developed NLPHub dashboard using React and
+                                Material UI, consolidating the deployment of NLP
+                                models from 3 platforms into a centralized
+                                gateway.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -55,9 +56,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Built a CI/CD pipeline on GitHub Actions to
-                                perform automated testing and deployment to
-                                Docker Hub container registry.
+                                Implemented Redis caching and containerized the
+                                NestJS backend using Docker and Docker Hub for
+                                version control, reducing response times by 45%
+                                and improving deployment efficiency
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -66,9 +68,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Improved system capacity by implementing Redis
-                                cache as a middleware layer and Nginx web server
-                                as load-balancer.
+                                Conducted load testing with Artillery and
+                                Postman, ensuring system robustness for up to
+                                3000 concurrent users, and implemented unit
+                                testing with Jest to achieve 90% test coverage.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -77,9 +80,11 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Containerized the system using Docker and
-                                utilized Docker Hub for image registry and
-                                version control.
+                                Established a CI/CD pipeline on GitHub Actions,
+                                and deployed to the Azure cloud platform,
+                                reducing deployment times by 30% and
+                                streamlining the build, test, and deployment
+                                processes
                             </li>
                         </ul>
                     </div>
@@ -87,65 +92,6 @@ export default function Experiences() {
             }
 
             case 2: {
-                return (
-                    <div className="experience-content">
-                        <span className="experience-title">
-                            Frontend SWE Intern{" "}
-                            <a
-                                href="https://www.ntu.edu.sg/temasek-labs"
-                                target="__blank"
-                                className="experience-highlight"
-                            >
-                                @ Temasek Lab
-                            </a>
-                        </span>
-                        <span className="experience-time">
-                            Sep 2023 - Dec 2023
-                        </span>
-                        <ul className="experience-text">
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Developed the frontend dashboard for NLPHub
-                                using React to enable clients to register and
-                                manage NLP services.
-                            </li>
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Utilized Chart.js to build interactive charts
-                                that highlight key platform metrics, including
-                                historical query data, top users based on
-                                request frequency, and the most utilized
-                                services, offering a comprehensive visualization
-                                of the platform's dynamics.
-                            </li>
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Created Artillery load testing scripts and
-                                conducting ad-hoc testing via Postman to ensure
-                                robust performance and scalability of the
-                                application.
-                            </li>
-                        </ul>
-                    </div>
-                );
-            }
-
-            case 3: {
                 return (
                     <div className="experience-content">
                         <span className="experience-title">
@@ -169,11 +115,9 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Created a Selenium web scraper deployed on AWS
-                                EC2 to scrap e-commerce product listing data,
-                                leveraging Python's multiprocessing library as a
-                                MapReduce framework to accelerate the scraping
-                                process.
+                                Created a Selenium web scraper on AWS EC2,
+                                accelerating the scraping process by 40% using
+                                Python's multiprocessing library and MapReduce.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -182,9 +126,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Developed a serverless function on AWS Lambda
-                                that transforms Ghana GPS information into a
-                                format usable by other downstream applications.
+                                Developed a serverless function on AWS Lambda to
+                                transform Ghana GPS information for downstream
+                                applications, enhancing data processing
+                                efficiency
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -205,18 +150,28 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Built an email template visualizer that
-                                transforms inputs from Google Sheets into email
-                                templates in HTML, providing immediate
-                                visualization of the email layout for the
-                                business development team.
+                                Built a PDF generator microservice in Express.js
+                                for dynamic document generation (orders,
+                                quotations, POs).
+                            </li>
+                            <li>
+                                <PlayArrowIcon
+                                    sx={{
+                                        fontSize: "1.2rem",
+                                        color: "var(--highlight)",
+                                    }}
+                                />
+                                Developed a real-time HTML email template
+                                generator from Google Sheets inputs for
+                                immediate layout visualization, reducing email
+                                template creation time by 50%.
                             </li>
                         </ul>
                     </div>
                 );
             }
 
-            case 4: {
+            case 3: {
                 return (
                     <div className="experience-content">
                         <span className="experience-title">
@@ -240,9 +195,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Developed an MVP showcasing OCBC Bank's history
-                                in VR with 3D artifact models in Apple Vision
-                                Pro using Swift.
+                                Assisted in the development and maintenance of a
+                                core UI component library used throughout the
+                                mobile banking app and website using React and
+                                Tailwind CSS.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -251,10 +207,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Led backend development of a virtual avatar
-                                banking project using Python Flask, integrating
-                                OpenAI GPT API for interactive banking
-                                operations.
+                                Participated in the backend development of a
+                                virtual avatar banking project using Flask and
+                                MongoDB, integrating OpenAI GPT API for
+                                interactive banking operations.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -263,11 +219,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Created mock microservices in Spring Boot to
-                                integrate the Flask backend into the existing
-                                Spring microservices ecosystem and facilitated
-                                communication between Flask and Spring
-                                microservices via RabbitMQ.
+                                Explored developing polyglot microservices to
+                                integrate the Flask backend with Java Spring
+                                Boot and facilitating communication via
+                                RabbitMQ.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -276,9 +231,8 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Handled Jira tickets for the React web
-                                development team, addressing small features and
-                                bug fixes as part of BAU activities.
+                                Built a prototype VR app showcasing OCBC Bank's
+                                history in Apple Vision Pro using Swift.
                             </li>
                         </ul>
                     </div>
@@ -298,24 +252,13 @@ export default function Experiences() {
                         <ul className="experiences-selection">
                             <li>
                                 <button
-                                    ref={buttonRefs[3]}
-                                    onClick={() =>
-                                        handleButtonClick(4, buttonRefs[3])
-                                    }
-                                    className={selection === 4 ? "active" : ""}
-                                >
-                                    OCBC Bank
-                                </button>
-                            </li>
-                            <li>
-                                <button
                                     ref={buttonRefs[2]}
                                     onClick={() =>
                                         handleButtonClick(3, buttonRefs[2])
                                     }
                                     className={selection === 3 ? "active" : ""}
                                 >
-                                    Proxtera
+                                    OCBC Bank
                                 </button>
                             </li>
                             <li>
@@ -326,7 +269,7 @@ export default function Experiences() {
                                     }
                                     className={selection === 2 ? "active" : ""}
                                 >
-                                    Temasek Lab
+                                    Proxtera
                                 </button>
                             </li>
                             <li>

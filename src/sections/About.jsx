@@ -97,7 +97,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        Swift
+                                        Tailwind CSS
                                     </li>
                                     <li>
                                         <PlayArrowIcon
