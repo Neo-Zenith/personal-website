@@ -44,10 +44,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Developed NLPHub dashboard using React and
-                                Material UI, consolidating the deployment of NLP
-                                models from 3 platforms into a centralized
-                                gateway.
+                                Developed NLPHub, a centralized gateway for
+                                deploying text, video, and audio-based NLP
+                                models, using React as frontend, NestJS as
+                                backend and MongoDB as database.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -56,10 +56,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Implemented Redis caching and containerized the
-                                NestJS backend using Docker and Docker Hub for
-                                version control, reducing response times by 45%
-                                and improving deployment efficiency
+                                Improved deployment speed by 30% by establishing
+                                a CI/CD pipeline on GitHub Actions to
+                                compartmentalize testing, building, and
+                                deployment to Docker Hub.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -68,23 +68,9 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Conducted load testing with Artillery and
-                                Postman, ensuring system robustness for up to
-                                3000 concurrent users, and implemented unit
-                                testing with Jest to achieve 90% test coverage.
-                            </li>
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Established a CI/CD pipeline on GitHub Actions,
-                                and deployed to the Azure cloud platform,
-                                reducing deployment times by 30% and
-                                streamlining the build, test, and deployment
-                                processes
+                                Implemented service-level caching with Redis,
+                                improved system responsiveness and reduced
+                                response time by 45%.
                             </li>
                         </ul>
                     </div>
@@ -115,9 +101,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Created a Selenium web scraper on AWS EC2,
-                                accelerating the scraping process by 40% using
-                                Python's multiprocessing library and MapReduce.
+                                Created a Selenium web scraper deployed on AWS
+                                EC2, accelerating the scraping process by 40%
+                                using MapReduce paradigm with Python's
+                                multiprocessing library.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -128,8 +115,7 @@ export default function Experiences() {
                                 />
                                 Developed a serverless function on AWS Lambda to
                                 transform Ghana GPS information for downstream
-                                applications, enhancing data processing
-                                efficiency
+                                applications.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -138,33 +124,9 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Created a PDF generator microservice in
-                                JavaScript that dynamically generates product
-                                orders, quotation forms, and purchase orders
-                                based on user input details.
-                            </li>
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Built a PDF generator microservice in Express.js
-                                for dynamic document generation (orders,
-                                quotations, POs).
-                            </li>
-                            <li>
-                                <PlayArrowIcon
-                                    sx={{
-                                        fontSize: "1.2rem",
-                                        color: "var(--highlight)",
-                                    }}
-                                />
-                                Developed a real-time HTML email template
-                                generator from Google Sheets inputs for
-                                immediate layout visualization, reducing email
-                                template creation time by 50%.
+                                Built a PDF generator micro backend in
+                                Express.js for dynamic document generation
+                                (orders, quotations, POs).
                             </li>
                         </ul>
                     </div>
@@ -195,8 +157,8 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Assisted in the development and maintenance of a
-                                core UI component library used throughout the
+                                Contributed to the development and maintenance
+                                of the UI component library used throughout the
                                 mobile banking app and website using React and
                                 Tailwind CSS.
                             </li>
@@ -207,10 +169,11 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Participated in the backend development of a
-                                virtual avatar banking project using Flask and
-                                MongoDB, integrating OpenAI GPT API for
-                                interactive banking operations.
+                                Developed the backend for a mobile banking
+                                assistant using Flask and MongoDB, leveraging
+                                LLM-as-a-service such as OpenAI GPT tool calls,
+                                Microsoft Azure text-to-speech and avatar
+                                generation for interactive banking experience.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -219,10 +182,9 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Explored developing polyglot microservices to
-                                integrate the Flask backend with Java Spring
-                                Boot and facilitating communication via
-                                RabbitMQ.
+                                Built Spring Boot microservices and integrate
+                                with the Flask backend using RabbitMQ as message
+                                broker.
                             </li>
                             <li>
                                 <PlayArrowIcon
@@ -231,8 +193,10 @@ export default function Experiences() {
                                         color: "var(--highlight)",
                                     }}
                                 />
-                                Built a prototype VR app showcasing OCBC Bank's
-                                history in Apple Vision Pro using Swift.
+                                Collaborated in debugging issues across multiple
+                                microservices, using Elasticsearch and Kibana to
+                                identify and resolve system-critical issues
+                                raised in UAT.
                             </li>
                         </ul>
                     </div>

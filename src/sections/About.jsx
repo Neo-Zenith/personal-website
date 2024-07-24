@@ -88,7 +88,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        ReactJS
+                                        React
                                     </li>
                                     <li>
                                         <PlayArrowIcon
@@ -97,7 +97,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        Tailwind CSS
+                                        Elasticsearch
                                     </li>
                                     <li>
                                         <PlayArrowIcon
@@ -106,7 +106,7 @@ export default function About() {
                                                 color: "var(--highlight)",
                                             }}
                                         />
-                                        Python Flask
+                                        Kibana
                                     </li>
                                 </ul>
                             </span>
